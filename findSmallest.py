@@ -6,12 +6,16 @@ def findSmallest(arr):
             smallest = arr[i]
             smallest_index = i
     return smallest_index
+
+
 def selectionSort(arr):
     newArr = []
     for i in range(len(arr)):
         smallest = findSmallest(arr)
         newArr.append(arr.pop(smallest))
     return newArr
+
+
 my_list = [5, 3, 6, 7, 8, 21, 22, 11, 2, 10]
 print(my_list)
 print(selectionSort(my_list))
