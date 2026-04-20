@@ -1,0 +1,5 @@
+print("Как тебя завут?")
+print("Привет,", input())
+print("\n" + "=" * 30 + "\n")
+variable_name = input()
+print("Вы ввели текст:", variable_name)
