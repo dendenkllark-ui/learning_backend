@@ -1,4 +1,4 @@
-print("Как тебя завут?")
+print("Как тебя зовут?")
 print("Привет,", input())
 print("\n" + "=" * 30 + "\n")
 variable_name = input()
