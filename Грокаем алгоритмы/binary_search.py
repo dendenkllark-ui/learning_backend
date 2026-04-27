@@ -21,3 +21,4 @@ print(binary_search(my_list, 7))
 print(binary_search(my_list, -1))
 
 print()
+print()
