@@ -1,9 +1,11 @@
+#Трехзначное число
 num = int(input())
 a = num // 100
 b = num // 10 % 10
 c = num % 10
 print(f'Сумма цифр = {a + b + c}\nПроизведение цифр = {a * b * c}')
 
+#Перестановка цифр
 num = int(input())
 a = num // 100
 b = num // 10 % 10
@@ -16,6 +18,7 @@ print(c, a, b, sep='')
 print(c, b, a, sep='')
 print(f"{a} {b} {c}\n{a} {c} {b}\n{b} {a} {c}\n{b} {c} {a}\n{c} {a} {b}\n{c} {b} {a}")
 
+#Четырехзначное число
 num = int(input())
 a = num // 1000
 b = num // 100 % 10
