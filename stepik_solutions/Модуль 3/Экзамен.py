@@ -47,3 +47,5 @@ a1 = input() # 1
 a11 = a1 + a1
 a111 = a1 + a1 + a1
 print(int(a111) + int(a1) + int(a11))
+
+print()
