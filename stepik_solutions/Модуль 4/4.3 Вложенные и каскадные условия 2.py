@@ -1,54 +1,54 @@
 #Задача про самописный калькулятор
 
-# a = int(input())
-# b = int(input())  
-# c = input()
-# if c == '+':
-#     print(a + b)
-# elif c == '-':
-#     print(a - b)   
-# elif c == '*':
-#     print(a * b)
-# elif c == '/':
-#     if b != 0:
-#         print(a / b)
-#     else:
-#         print('На ноль делить нельзя!')
-# else:
-#     print('Неверная операция')
+a = int(input())
+b = int(input())  
+c = input()
+if c == '+':
+    print(a + b)
+elif c == '-':
+    print(a - b)   
+elif c == '*':
+    print(a * b)
+elif c == '/':
+    if b != 0:
+        print(a / b)
+    else:
+        print('На ноль делить нельзя!')
+else:
+    print('Неверная операция')
 
 #Задача про цветовой микшер
 
-# a = input()
-# b = input()
-# if (a == 'красный' and b == 'синий') or (a == 'синий' and b == 'красный'):
-#     print('фиолетовый')
-# elif ( a == 'красный' and b == 'желтый') or (a == 'желтый' and b == 'красный'):
-#     print('оранжевый')
-# elif (a == 'синий' and b == 'желтый') or (a == 'желтый' and b == 'синий'):
-#     print('зеленый')
-# elif a == b and (a == 'красный' or a == 'синий' or a == 'желтый'):
-#     print(a)
-# else:
-#     print('ошибка цвета')
+a = input()
+b = input()
+if (a == 'красный' and b == 'синий') or (a == 'синий' and b == 'красный'):
+    print('фиолетовый')
+elif ( a == 'красный' and b == 'желтый') or (a == 'желтый' and b == 'красный'):
+    print('оранжевый')
+elif (a == 'синий' and b == 'желтый') or (a == 'желтый' and b == 'синий'):
+    print('зеленый')
+elif a == b and (a == 'красный' or a == 'синий' or a == 'желтый'):
+    print(a)
+else:
+    print('ошибка цвета')
 
 #Задача про цвета колеса рулетки
 
-# a = int(input())
-# if a == 0:
-#     print('зеленый')
-# elif 1 <= a <= 10 or 19 <= a <= 28:
-#     if a % 2 == 0:
-#         print('черный')
-#     else:
-#         print('красный')
-# elif 11 <= a <= 18 or 29 <= a <= 36:
-#     if a % 2 == 0:
-#         print('красный')
-#     else:        
-#         print('черный')
-# else:
-#     print('ошибка ввода')
+a = int(input())
+if a == 0:
+    print('зеленый')
+elif 1 <= a <= 10 or 19 <= a <= 28:
+    if a % 2 == 0:
+        print('черный')
+    else:
+        print('красный')
+elif 11 <= a <= 18 or 29 <= a <= 36:
+    if a % 2 == 0:
+        print('красный')
+    else:        
+        print('черный')
+else:
+    print('ошибка ввода')
 
 #Задача про пересечение отрезков
 
