@@ -32,6 +32,7 @@ if max(len(a), len(b), len(c)) == len(b):
 if max(len(a), len(b), len(c)) == len(c):
     print(c)
 
+#Cортировка по длине
 city = [input(), input(), input()]
 city.sort(key=len)
 print(city[0])
