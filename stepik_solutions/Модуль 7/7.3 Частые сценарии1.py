@@ -81,19 +81,19 @@ print("Наибольшее число равно", largest)
 
 # Обмен значений переменных
 
-temp = x
-x = y
-y = temp
-#
-x, y = y, x
-#
-a, b, c, d = 1, 2, 3, 4
-a, b, c, d = b, c, d, a
-print(a, b, c, d)
-#
-a, b = 3, 4
-a, b = a + b, 2 * a
-print(a, b)
+# temp = x
+# x = y
+# y = temp
+# #
+# x, y = y, x
+# #
+# a, b, c, d = 1, 2, 3, 4
+# a, b, c, d = b, c, d, a
+# print(a, b, c, d)
+# #
+# a, b = 3, 4
+# a, b = a + b, 2 * a
+# print(a, b)
 
 # Расширенные операторы присваивания
 
