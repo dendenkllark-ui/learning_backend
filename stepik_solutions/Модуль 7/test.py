@@ -1,14 +1,8 @@
-mx = -1000001 
-s = 0
+counter = 0
+for i in range(99, 102):
+    temp = i
+    while temp > 0:
+        counter += 1
+        temp //= 10
 
-for i in range(10):
-    x = int(input())
-    if x < 0:
-        s += x
-        if x > mx:
-            mx = x
-if s == 0:
-    print('NO')
-else:
-    print(s)
-    print(mx)
+print(counter)
