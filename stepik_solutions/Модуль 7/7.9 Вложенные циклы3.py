@@ -46,7 +46,7 @@ for i in range(mid - 1, 0, -1):
 n = int(input())
 middle = n // 2 + 1
 for i in range(1, n + 1):
-    # Хитрая формула, которая сама уменьшает число после середины
+    # формула, которая сама уменьшает число после середины
     count = middle - abs(middle - i)
     print('*' * count)
 
