@@ -1,6 +1,4 @@
+numbers = [1, 3, 0, 2, 4]
 
-x = [1, 2, 3]
-y = [6]
-z = [7, 8, 9, 10, 11, 12, 13]
-
-print(x*2 + y*9 + z)
+for i in numbers:
+    print(numbers[i], end=' ')
