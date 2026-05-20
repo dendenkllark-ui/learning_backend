@@ -77,7 +77,7 @@ for num in set(s):
 print(total_pairs)
 
 
-# Алгорит поиска пар
+# Алгорит поиска пар 
 num, count = input().split(), 0
 for i in range(len(num)):
     for j in range(i + 1, len(num)):
