@@ -1,49 +1,49 @@
-#
-# key = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'class', 'continue', 
-#    'def', 'del', 'elif', 'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
-# new_keywords = [x for x in key if len(x) >= 5]
-# print(new_keywords)
+
+key = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'class', 'continue', 
+   'def', 'del', 'elif', 'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
+new_keywords = [x for x in key if len(x) >= 5]
+print(new_keywords)
 
 #Вывести список палиндромов в диапазоне
 
-# palindromes = [i for i in range (100, 1001) if str(i) == str(i)[::-1]]
-# print(palindromes)
+palindromes = [i for i in range (100, 1001) if str(i) == str(i)[::-1]]
+print(palindromes)
 
-# Вывести слова в столбик из введенной строки 
+#Вывести слова в столбик из введенной строки 
 
-# x = input().split()
-# print(*x, sep='\n')
+x = input().split()
+print(*x, sep='\n')
 
-# #
-# print(*input().split(), sep='\n')
+#
+print(*input().split(), sep='\n')
 
-# #
-# n = int(input())
-# x = [i**2 for i in range(1, n + 1)]
-# print(*x, sep='\n')
+#
+n = int(input())
+x = [i**2 for i in range(1, n + 1)]
+print(*x, sep='\n')
 
-# #
-# print(*[i ** 2 for i in range(1, int(input()) + 1)], sep="\n")
+#
+print(*[i ** 2 for i in range(1, int(input()) + 1)], sep="\n")
 
 
 #Вывести куды чисел, введенных в одну строку через пробел
 
-# a = input().split()
-# x = [int(i)**3 for i in a if i.lstrip('-').isdigit()]
-# print(*x)
+a = input().split()
+x = [int(i)**3 for i in a if i.lstrip('-').isdigit()]
+print(*x)
 
-# #
-# print(*[int(i) ** 3 for i in input().split()])
+#
+print(*[int(i) ** 3 for i in input().split()])
 
 
-# Вывести все цифромые символы в строке, введенной пользователем
+#Вывести все цифромые символы в строке, введенной пользователем
 
-# a = input()
-# x = [i for i in a if i.isdigit()]
-# print(*x, sep='') 
+a = input()
+x = [i for i in a if i.isdigit()]
+print(*x, sep='') 
 
-# #
-# print(*[i for i in input() if i.isdigit()], sep="")
+#
+print(*[i for i in input() if i.isdigit()], sep="")
 
 
 # вывести квадраты чисел, кроме определенных

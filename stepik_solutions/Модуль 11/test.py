@@ -1,4 +1,3 @@
-numbers = [1, 3, 0, 2, 4]
+a = input().split("-")
+print(a)
 
-for i in numbers:
-    print(numbers[i], end=' ')
