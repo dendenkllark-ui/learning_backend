@@ -20,7 +20,7 @@ def evil(s):
 num = evil(input())
 print(num)
 
-#
+
 def get_unique(numbers):
     res = []
     for num in numbers:
